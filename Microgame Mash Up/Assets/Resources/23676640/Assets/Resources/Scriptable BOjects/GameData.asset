@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627d3298b961d3348a41a6686aece506, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  exitTileOpen: {fileID: 21300000, guid: cf69de5c5575e624b80ac3cea6b09ef2, type: 3}
+  exitTileClosed: {fileID: 21300000, guid: 6df838ebdba92cd4494cd5ebe711d6dd, type: 3}
+  playerSpawnTile: {fileID: 21300000, guid: 27275b10acea0be4bae265102d29b872, type: 3}
+  gameTileSprite: {fileID: 21300000, guid: 98ae0d58d0b96604480dc8e7fd5b9160, type: 3}
+  explosionClip: {fileID: 8300000, guid: 85a3c24dbcfadac4fbcfdbdf53dbeacc, type: 3}
+  shootSound: {fileID: 8300000, guid: 7d4d551ecf202744a8cf29bec7df02fc, type: 3}
+  mainMusic: {fileID: 0}

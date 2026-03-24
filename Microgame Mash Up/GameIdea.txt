@@ -1,0 +1,43 @@
+Escape from the lab as a slime
+
+Theme:
+you play as a helpless slime which can only move +1 x/y at a time
+
+your goal is to reach the exit tile to escape the lab while each microgame has an opposing force to either slow you don't so you don't make it out or kill you
+
+
+
+Idea 1:
+falling "weight"
+player spawns on opposite side of exit and go to the exit, problem is weights drop periodically, staying on the tile they fall on to create blocks
+
+
+
+NEW MAJOR IDEA::::
+
+	RUNngin out of time so
+1 micro game
+	falling objects 
+	toggling lazers
+
+have minigamemanager script (labescape)
+have fallijng objct script and lazer script, mangaer runs rthem
+
+
+
+
+ToDo:
+
+	Tile Design
+	Change Script names
+	Falling Objects images
+	Fix Falling Grid logic
+		OnUpdate:
+			GetValidObjTiles => tiles.IsEmpty
+			DropObjs
+				
+	Sort out end point/player spawn 
+		new idea; 
+			player spawn = far left, end = far right
+			a door is next to the end which slime goes through at the end
+	

@@ -1,0 +1,11 @@
+{
+  "name": "23676640",
+  "references": [
+    "Core",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Unity.InputSystem"
+  ],
+  "autoReferenced": true,
+  "allowUnsafeCode": false
+}
